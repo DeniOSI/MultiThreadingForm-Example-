@@ -1,0 +1,9 @@
+c:\users\osipenko\documents\visual studio 2015\Projects\MultiThread\MultiThread\bin\Debug\MultiThread.exe.config
+c:\users\osipenko\documents\visual studio 2015\Projects\MultiThread\MultiThread\bin\Debug\MultiThread.exe
+c:\users\osipenko\documents\visual studio 2015\Projects\MultiThread\MultiThread\bin\Debug\MultiThread.pdb
+c:\users\osipenko\documents\visual studio 2015\Projects\MultiThread\MultiThread\obj\Debug\MultiThread.csprojResolveAssemblyReference.cache
+c:\users\osipenko\documents\visual studio 2015\Projects\MultiThread\MultiThread\obj\Debug\MultiThread.Form1.resources
+c:\users\osipenko\documents\visual studio 2015\Projects\MultiThread\MultiThread\obj\Debug\MultiThread.Properties.Resources.resources
+c:\users\osipenko\documents\visual studio 2015\Projects\MultiThread\MultiThread\obj\Debug\MultiThread.csproj.GenerateResource.Cache
+c:\users\osipenko\documents\visual studio 2015\Projects\MultiThread\MultiThread\obj\Debug\MultiThread.exe
+c:\users\osipenko\documents\visual studio 2015\Projects\MultiThread\MultiThread\obj\Debug\MultiThread.pdb
