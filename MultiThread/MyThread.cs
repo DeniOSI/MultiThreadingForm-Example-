@@ -9,17 +9,20 @@ namespace MultiThread
     class MyThread
     {
    public List<string> valuestate;
-        List<Thread> threadlist;
+
+        List<Thread> threadlist; //создается список потоков
         int _threadcount;
-        Mydelegate _md;
-        string _threadname;
-        public MyThread(int threadcount, Mydelegate md, string name)
+        Mydelegate<string> _md; //єкземпляр делегата
+        string _threadname; 
+
+        public MyThread(int threadcount, Mydelegate<string> md, string name)
         {
             _threadcount = threadcount;
             _md = md;
             _threadname = name;
 
         }
+        //возобновление потока
         public void Restart()
         {
             foreach(var value in threadlist)
@@ -28,6 +31,7 @@ namespace MultiThread
                  value.Resume();
             }
         }
+        //приоставновка выполнения потока
         public void Pause()
         {
 

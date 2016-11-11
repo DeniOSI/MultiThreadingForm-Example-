@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace MultiThread
 {
-    public delegate void Mydelegate(string str);
+    public delegate void Mydelegate<T>(T str); //обобщенный делегат
     public partial class Form1 : Form
     {
         MyThread mt;
-        Mydelegate md;
+        Mydelegate<string> md;
         MyThread mythread;
         public Form1()
         {
@@ -32,7 +32,7 @@ namespace MultiThread
 
 
         }
-        public void Sd(string str)
+        public void Sd(string str) //метод выводит резултат работы потока
         {
             if(this.InvokeRequired)
             {
@@ -60,7 +60,7 @@ namespace MultiThread
             mythread.Restart();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e) //проверка статусов потоков
         {
             mt.GetValueState();
             listBox1.Items.Clear();
